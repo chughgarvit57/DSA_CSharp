@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.vscode
+*.vsconfig
+*.csproj.user
+
+# Logs
+*.log
+
+# Packages
+packages/
+*.nupkg
+
+# Dependency caches
+project.lock.json
+*.pdb
+
+# Rider and JetBrains specific
+.idea/
+*.sln.iml
+
+# Resharper
+*_Resharper*/
+
+# ASP.NET specific
+appsettings.json
+appsettings.Development.json
+
+# Entity Framework
+Migrations/
+
+# Ignore secrets
+secrets.json
+
+# Other
+Thumbs.db
+.DS_Store
