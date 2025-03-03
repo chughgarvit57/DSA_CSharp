@@ -47,6 +47,7 @@
             Console.WriteLine("-------------------------------------------------");
             */
             // *****************************************************************************************
+
             CircularLinkedList list = new CircularLinkedList();
             list.InsertFirst(1);
             list.InsertFirst(2);
