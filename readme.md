@@ -1,4 +1,4 @@
-# 📘 ProblemSolvingDSACSharp  
+# 📘 DSA_CSharp  
 A comprehensive collection of Data Structures and Algorithms (DSA) solutions implemented in C#.  
 
 ## 📂 Repository Structure  
