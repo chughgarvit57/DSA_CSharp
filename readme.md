@@ -1,4 +1,4 @@
-# 📘 DSA_CSharp  
+# 📚 DSA_CSharp  
 A comprehensive collection of Data Structures and Algorithms (DSA) solutions implemented in C#.  
 
 ## 📂 Repository Structure  
@@ -12,6 +12,9 @@ This repository follows a structured branching model to maintain code organizati
   - **`strings`** → Solutions for string manipulation problems.  
   - **`stack`** → Stack implementation using linked lists.  
   - **`queue`** → Queue implementation using linked lists.  
+  - **`searching`** → Searching algorithms like Binary Search, Linear Search, etc.  
+  - **`sorting`** → Sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort and Merge Sort.  
+  - **`hashset`** → Usage of built-in HashSet methods for problem-solving.  
 
 ## 🔧 Getting Started  
 To get started with this repository, clone the repository and switch to the desired branch:  
@@ -44,8 +47,11 @@ This repository covers the following DSA topics:
 - Strings  
 - Stack (Implemented using Linked List)  
 - Queue (Implemented using Linked List)  
+- Searching Algorithms  
+- Sorting Algorithms  
+- HashSet (Built-in Methods)  
 
-## 📜 License  
+## 🐝 License  
 This repository is open-source and available under the MIT License.  
 
 ---  
