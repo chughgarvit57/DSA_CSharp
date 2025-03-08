@@ -11,7 +11,8 @@
                 Console.WriteLine("1 ---------------> Bubble Sort");
                 Console.WriteLine("2 ---------------> Selection Sort");
                 Console.WriteLine("3 ---------------> Insertion Sort");
-                Console.WriteLine("4 ---------------> Exit\n");
+                Console.WriteLine("4 ---------------> Merge Sort");
+                Console.WriteLine("5 ---------------> Exit\n");
                 Console.WriteLine("Press any button:");
                 int button;
                 if (!int.TryParse(Console.ReadLine(), out button))
@@ -19,7 +20,7 @@
                     Console.WriteLine("Invalid Input. Please enter a valid number");
                     continue;
                 }
-                if (button == 4)
+                if (button == 5)
                 {
                     Console.WriteLine("Exiting....GoodBye!");
                     break;
@@ -66,6 +67,20 @@
                         for (int i = 0; i < sortedArray3.Length; i++)
                         {
                             Console.Write(sortedArray3[i] + " ");
+                        }
+                        break;
+                    case 4:
+                        int[] arr4 = { 1, 6, 2, 5, 4, 7, 9, 8 };
+                        Console.WriteLine("Given array:");
+                        for (int i = 0; i < arr4.Length; i++)
+                        {
+                            Console.Write(arr4[i] + " ");
+                        }
+                        Sorting.Divide(arr4, 0, arr4.Length - 1);
+                        Console.WriteLine("\nSorted Array:");
+                        for (int i = 0; i < arr4.Length; i++)
+                        {
+                            Console.Write(arr4[i] + " ");
                         }
                         break;
                     default:
