@@ -36,6 +36,26 @@
                         }
                         SearchingMethods.LinearSearch(arr, key);
                         break;
+                    case 2:
+                        Console.Write("Enter array elements separated by space: ");
+                        int[] arr1 = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+                        Array.Sort(arr1);
+                        Console.Write("Enter the key to search: ");
+                        if (!int.TryParse(Console.ReadLine(), out int target))
+                        {
+                            Console.WriteLine("Invalid key input. Please enter a valid number.");
+                            continue;
+                        }
+                        int result = SearchingMethods.BinarySearch(arr1, target);
+                        if (result != -1)
+                        {
+                            Console.WriteLine($"Element found at index: {result}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Element not found in the array.");
+                        }
+                        break;
                 }
             }
         }
